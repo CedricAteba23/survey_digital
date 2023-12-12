@@ -1,0 +1,36 @@
+ion-content {
+    // --ion-background-color: #ffffff;
+  }
+  
+  // .inscription-form {
+  //   max-width: 400px;
+  //   margin: auto;
+  // }
+  
+  ion-item {
+    margin-bottom: 15px;
+  }
+  
+  ion-button {
+    margin-top: 20px;
+  }
+
+  page-home {
+    .login-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      background-color: #fff;
+    }
+  
+    ion-card {
+      width: 80%;
+      max-width: 400px;
+    }
+  }
+  ion-content {
+    --ion-background-color: #ffffff;
+  }
+  
+  

@@ -1,0 +1,46 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>acceuil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">
+        <img src="assets/bemvenido.PNG"> 
+        </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <br>
+  <div class="card" style="width: 18rem; margin-left: 15%">
+    <div class="card-body">
+      <h5 class="card-title"[routerLink]="['/save']" routerLinkActive="router-link-active"><b>Enregister un candidat</b></h5>
+      <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a> -->
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="card" style="width: 18rem; margin-left: 15%">
+    <div class="card-body">
+      <h5 class="card-title" [routerLink]="['/list']" routerLinkActive="router-link-active"><b>Liste des candidat</b></h5>
+      <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a> -->
+    </div>
+  </div>
+  
+  <div class="footer" [routerLink]="['/login']" routerLinkActive="router-link-active" >
+    <button type="button" class="btn btn-primary"
+    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+      Déconnexion
+</button>
+  </div>
+ 
+  
+</ion-content>
+

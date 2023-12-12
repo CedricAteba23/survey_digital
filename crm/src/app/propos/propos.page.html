@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>propos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <!-- <ion-title size="large">propos</ion-title> -->
+    </ion-toolbar>
+  </ion-header>
+   <p> </p>
+   <ion-card color="light">
+    <ion-card-header>
+      <ion-card-title>A PROPOS</ion-card-title>
+      <!-- <ion-card-subtitle>Card Subtitle</ion-card-subtitle> -->
+    </ion-card-header>
+  
+    <ion-card-content> ISJCRM est une application sécurisée permettant d'enregistrer des futurs candidats pour intégrer le prestigieux Institut Universitaire Saint Jean</ion-card-content>
+  </ion-card>
+  <div class="footer" [routerLink]="['/list']" routerLinkActive="router-link-active" >
+    <button type="button" class="btn btn-primary"
+    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+    Retour à l'acceuil
+</button>
+  </div>
+</ion-content>

@@ -1,0 +1,46 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>save</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="">Enregister un candidat</ion-title>
+    </ion-toolbar>
+  </ion-header>
+    <p style="margin-left: 5rem;">Veuillez enregistrer un candidat sur la plateforme!</p>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Nom</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Prenom</label>
+    <input type="password" class="form-control" id="exampleFormControlInput1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Date de naissance</label>
+    <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="JJ/MM/AAAA">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">email</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">numéro de téléphone</label>
+    <input type="password" class="form-control" id="exampleFormControlInput1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">adresse</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" >
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Statut</label>
+    <input type="password" class="form-control" id="exampleFormControlInput1">
+  </div>
+  <div class="d-grid gap-2">
+    <button class="btn btn-success" type="button" [routerLink]="['/acceuil']" routerLinkActive="router-link-active" >Enregister</button>
+    <!-- <button class="btn btn-primary" type="button">Button</button> -->
+  </div>
+</ion-content>

@@ -1,0 +1,56 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <!-- <ion-title>list</ion-title> -->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <!-- <ion-nav [root]="component "></ion-nav> -->
+      <ion-title size="large">Liste des candidats</ion-title>
+    </ion-toolbar>
+    <!-- <ion-nav [root]=""></ion-nav> -->
+  </ion-header>
+  <ion-card color="light">
+    <ion-card-header>
+      <ion-card-title> Nanfack Ludo</ion-card-title>
+      <!-- <ion-card-subtitle>Card Subtitle</ion-card-subtitle> -->
+    </ion-card-header>
+  
+    <ion-card-content>
+      <!-- Here's a small text description for the card content. Nothing more, nothing less. -->
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title> Nken max</ion-card-title>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <!-- Here's a small text description for the card content. Nothing more, nothing less. -->
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="home" [routerLink]="['/acceuil']" routerLinkActive="router-link-active" >
+      <ion-icon name="home"></ion-icon>
+      Acceuil
+    </ion-tab-button>
+    <ion-tab-button  >
+      <ion-icon name="accessibility"></ion-icon>
+      Candidats
+    </ion-tab-button>
+    <ion-tab-button tab="library" [routerLink]="['/save']" routerLinkActive="router-link-active" >
+      <ion-icon name="bookmark"></ion-icon>
+      Enregister
+    </ion-tab-button>
+    <ion-tab-button tab="search" [routerLink]="['/propos']" routerLinkActive="router-link-active" >
+      <ion-icon name="file-tray-stacked"></ion-icon>
+      A propos
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>

@@ -1,0 +1,7 @@
+{
+  "name": "ISJCRM",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
